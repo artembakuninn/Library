@@ -1,0 +1,179 @@
+@charset "UTF-8";
+body {
+  background-color: #f2f2f2;
+}
+
+/** {
+  border: 1px red solid;
+}*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  border: none;
+}
+
+.wrap {
+  width: 60%;
+  margin: 0px auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.book-tittle {
+  margin-bottom: 30px;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+}
+
+.book-tittle-btn {
+  padding: 5px 40px;
+  color: #fff;
+  background-color: #b4b4b4;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.book-tittle-btn:hover {
+  background-color: #fff;
+  color: #b4b4b4;
+}
+
+.book-list__img {
+  background-color: grey;
+}
+
+.book-list {
+  background-color: #fff;
+  border: 1px #f2f2f2 solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.book-list__tittle {
+  margin-right: 20px;
+}
+
+.book-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.book-list__img {
+  width: 100px;
+  height: 150px;
+  margin: 0px 20px;
+}
+
+.book-list-desk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 40%;
+}
+
+.book-list-desk h2,
+.book-list-desk h4,
+.book-list-desk span {
+  margin-bottom: 5px;
+}
+
+.book-list-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.book-list-buttons__item {
+  margin-bottom: 10px;
+  padding: 5px 20px;
+  background: transparent;
+  border: #b4b4b4 1px solid;
+  color: #b4b4b4;
+}
+
+.book-list-buttons__item:hover {
+  background-color: #b4b4b4;
+  color: #fff;
+}
+
+/*Модальное окно*/
+.modal {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.modal-tittle {
+  margin-bottom: 20px;
+}
+
+.modal-form-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input {
+  border: #b4b4b4 1px solid;
+  padding-left: 10px;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+label .modal-tittle-input {
+  margin-top: 5px;
+}
+
+.modal-tittle-input-year {
+  width: 70px;
+  margin-top: 5px;
+}
+
+.modal-buttons__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px 50px;
+  background-color: #d3d3d3;
+  color: #4d4d4d;
+}
+
+.modal-buttons__item:hover {
+  background-color: #b4b4b4;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Library</title>
+    
+</head>
+
+<body>
+    <section class="book">
+
+        <div class="wrap">
+            <h1 class="book-tittle">Книжная полка</h1>
+            <button type="button" id='button-add'  class="book-tittle-btn" >Добавить
+                книгу</button>
+
+            <div class="book-list">
+                <div class="book-list-item">
+                    <div class="book-list__img"></div>
+                    <div class="book-list-desk">
+                        <h2 class="book-list__tittle">JavaScript и jQuery</h2>
+                        <h4 class="book-list__subtittle">Дэвид Сойер Макфарланд</h4>
+                        <span class="book-list__year">2016</span>
+                    </div>
+                    <div class="book-list-buttons">
+                        <button type="button" class="book-list-buttons__item">Редактировать</button>
+                        <button type="button" class="book-list-buttons__item">Удалить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="book-list">
+                <div class="book-list-item">
+                    <div class="book-list__img"></div>
+                    <div class="book-list-desk">
+                        <h2 class="book-list__tittle">JavaScript и jQuery</h2>
+                        <h4 class="book-list__subtittle">Дэвид Сойер Макфарланд</h4>
+                        <span class="book-list__year">2016</span>
+                    </div>
+                    <div class="book-list-buttons">
+                        <button type="button" class="book-list-buttons__item">Редактировать</button>
+                        <button type="button" class="book-list-buttons__item">Удалить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Модальное окно-->
+        <div class="modal wrap" id="modal">
+            <h1 class="modal-tittle">Редактирование книги</h1>
+            <div class="modal-form">
+                <form class="modal-form-items" id="form" >
+                    <label for="book-name">Наименование <input name='book-name' type="text" class="modal-tittle-input"
+                            placeholder="Введите название" id="book-name" value=""></label>
+                    <label for="book-autor">Автор<input name='book-autor' type="text" class="modal-tittle-input"
+                            placeholder="Введите автора" id="book-autor" value=""></label>
+                    <label for="book-year">Год выпуска<input name='book-year' type="number"
+                            class="modal-tittle-input-year" placeholder="Год" id="book-year" value=""></label>
+                    <label for="book-url">Изображение<input name='book-url' type="url" class="modal-tittle-input"
+                            placeholder="Ссылка на изображение" id="book-url"
+                            value=""></label>
+
+                    <div class="modal-buttons">
+                        <button type="button" class="modal-buttons__item" id="modal-save">Сохранить</button>
+                        <button type="button" class="modal-buttons__item" id="modal-hide">Отменить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+
+</html>
